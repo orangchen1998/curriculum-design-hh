@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{64fdc57f-6ec4-482d-a725-7be6ec4a4a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chess">
+      <UniqueIdentifier>{ff478add-9a0e-4b27-a94a-24a35b116471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Gobang_FiveChess.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Gobang_FiveChess.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gobang_FiveChess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gobang_FiveChessDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMemDC.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceFunc.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessAI.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessCommon.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessDraw.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gobang_FiveChess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gobang_FiveChessDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceFunc.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessAI.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessCommon.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessDraw.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Gobang_FiveChess.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
